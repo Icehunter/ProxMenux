@@ -41,6 +41,11 @@ jobs:
       working-directory: AppImage
       run: chmod +x scripts/build_appimage.sh
       
+    - name: Set up Python 3.12 for build (Pillow 13 requires >=3.11)
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
     - name: Build AppImage
       working-directory: AppImage
       run: ./scripts/build_appimage.sh
