@@ -22506,7 +22506,7 @@ def api_system_pve_update_cancel():
 # Runs inside a systemd unit so it survives the proxmenux-monitor
 # service restart the installer performs mid-way.
 
-_PROXMENUX_STABLE_INSTALLER_URL = 'https://raw.githubusercontent.com/MacRimi/ProxMenux/main/install_proxmenux.sh'
+_PROXMENUX_STABLE_INSTALLER_URL = 'https://raw.githubusercontent.com/Icehunter/ProxMenux/main/install_proxmenux.sh'
 _PROXMENUX_BETA_INSTALLER_URL = 'https://raw.githubusercontent.com/MacRimi/ProxMenux/develop/install_proxmenux_beta.sh'
 _PROXMENUX_CONFIG_FILE = '/usr/local/share/proxmenux/config.json'
 

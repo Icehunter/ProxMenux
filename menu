@@ -29,7 +29,7 @@ LOCAL_VERSION_FILE="$BASE_DIR/version.txt"
 BETA_VERSION_FILE="$BASE_DIR/beta_version.txt"
 VENV_PATH="/opt/googletrans-env"
 
-REPO_MAIN="https://raw.githubusercontent.com/MacRimi/ProxMenux/main"
+REPO_MAIN="https://raw.githubusercontent.com/Icehunter/ProxMenux/main"
 REPO_DEVELOP="https://raw.githubusercontent.com/MacRimi/ProxMenux/develop"
 
 # ── Load utilities ─────────────────────────────────────────

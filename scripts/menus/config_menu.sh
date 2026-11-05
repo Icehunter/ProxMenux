@@ -47,7 +47,7 @@ INSTALL_DIR="/usr/local/bin"
 MENU_SCRIPT="menu"
 BACKTITLE="ProxMenux Configuration"
 
-REPO_MAIN="https://raw.githubusercontent.com/MacRimi/ProxMenux/main"
+REPO_MAIN="https://raw.githubusercontent.com/Icehunter/ProxMenux/main"
 REPO_DEVELOP="https://raw.githubusercontent.com/MacRimi/ProxMenux/develop"
 STABLE_INSTALLER_URL="$REPO_MAIN/install_proxmenux.sh"
 BETA_INSTALLER_URL="$REPO_DEVELOP/install_proxmenux_beta.sh"
