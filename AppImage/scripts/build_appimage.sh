@@ -406,7 +406,7 @@ install_gevent_runtime() {
         "zope.interface==${ZOPE_INTERFACE_VERSION}" \
         "zope.event==${ZOPE_EVENT_VERSION}" \
         "gevent-websocket==${GEVENT_WEBSOCKET_VERSION}" \
-        "Pillow==12.3.0"
+        "Pillow==13.0.0"
 }
 
 install_gevent_runtime "3.11" "cp311"
