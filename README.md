@@ -22,18 +22,21 @@
 </div>
 
 <div align="center" style="margin-top: 14px;">
-    <a href="https://github.com/MacRimi/ProxMenux/releases/latest"><img src="https://img.shields.io/github/v/release/MacRimi/ProxMenux?display_name=tag&label=latest&color=2A3A5D&style=flat-square" alt="Latest release" /></a>
-    <a href="https://github.com/MacRimi/ProxMenux/releases?q=prerelease%3Atrue"><img src="https://img.shields.io/github/v/release/MacRimi/ProxMenux?include_prereleases&label=beta&color=E64804&style=flat-square" alt="Latest beta" /></a>
-    <a href="https://github.com/MacRimi/ProxMenux/blob/main/LICENSE"><img src="https://img.shields.io/github/license/MacRimi/ProxMenux?color=2A3A5D&style=flat-square&cacheSeconds=300" alt="License" /></a>
-    <a href="https://github.com/MacRimi/ProxMenux/stargazers"><img src="https://img.shields.io/github/stars/MacRimi/ProxMenux?style=flat-square" alt="GitHub stars" /></a>
-    <a href="https://github.com/MacRimi/ProxMenux/issues"><img src="https://img.shields.io/github/issues/MacRimi/ProxMenux?color=2A3A5D&style=flat-square" alt="Open issues" /></a>
+    <a href="https://github.com/Icehunter/ProxMenux/releases/latest"><img src="https://img.shields.io/github/v/release/Icehunter/ProxMenux?display_name=tag&label=latest&color=2A3A5D&style=flat-square" alt="Latest release" /></a>
+    <a href="https://github.com/Icehunter/ProxMenux/releases?q=prerelease%3Atrue"><img src="https://img.shields.io/github/v/release/Icehunter/ProxMenux?include_prereleases&label=beta&color=E64804&style=flat-square" alt="Latest beta" /></a>
+    <a href="https://github.com/Icehunter/ProxMenux/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Icehunter/ProxMenux?color=2A3A5D&style=flat-square&cacheSeconds=300" alt="License" /></a>
+    <a href="https://github.com/Icehunter/ProxMenux/stargazers"><img src="https://img.shields.io/github/stars/Icehunter/ProxMenux?style=flat-square" alt="GitHub stars" /></a>
+    <a href="https://github.com/Icehunter/ProxMenux/issues"><img src="https://img.shields.io/github/issues/Icehunter/ProxMenux?color=2A3A5D&style=flat-square" alt="Open issues" /></a>
 </div>
 
 <br />
 
 <p align="center">
   <strong>ProxMenux</strong> is an interactive toolkit for <strong>Proxmox VE</strong> — a menu-driven CLI plus a web dashboard for post-install, backup/restore and continuous health monitoring of your homelab.
+
 </p>
+
+> 🍴 **Fork notice:** this is a fork of [MacRimi/ProxMenux](https://github.com/MacRimi/ProxMenux), kept in sync with upstream and including a bundled Pillow 13.0.0 security update and updated dependencies. The installer and update checks pull from this repo.
 
 ---
 
@@ -42,12 +45,12 @@
 To install ProxMenux, simply run the following command in your Proxmox server terminal:
 
 ```bash
-bash -c "$(wget -qLO - https://raw.githubusercontent.com/MacRimi/ProxMenux/main/install_proxmenux.sh)"
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/Icehunter/ProxMenux/main/install_proxmenux.sh)"
 ```
 
 > ⚠️ Be careful when copying scripts from the internet. Always remember to check the source!
 >
-> 📄 You can [review the source code](https://github.com/MacRimi/ProxMenux/blob/main/install_proxmenux.sh) before execution.
+> 📄 You can [review the source code](https://github.com/Icehunter/ProxMenux/blob/main/install_proxmenux.sh) before execution.
 >
 > 🛡️ All executable links follow our [Code of Conduct](https://github.com/MacRimi/ProxMenux?tab=coc-ov-file#-2-security--code-responsibility).
 
